@@ -25,7 +25,7 @@ import {
  * * IN STEP 3: We will simply set this to `false` to connect to our real database.
  */
 const DEMO_MODE = false;
-const API_BASE_URL = 'https://task-app-api-7mgr.onrender.com/';
+const API_BASE_URL = 'https://task-app-api-7mgr.onrender.com/api';
 
 // --- API LAYER (Simulated or Real) ---
 
