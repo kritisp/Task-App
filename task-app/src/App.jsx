@@ -19,12 +19,12 @@ import {
 /**
  * ------------------------------------------------------------------
  * STEP 1 CONFIGURATION: FRONTEND ONLY
- * ------------------------------------------------------------------
+ * ------------------------ ------------------------------------------
  * We are currently in "Step 1". We set DEMO_MODE to true.
  * This simulates a backend so we can build the UI without waiting for the server.
  * * IN STEP 3: We will simply set this to `false` to connect to our real database.
  */
-const DEMO_MODE = true;
+const DEMO_MODE = false;
 const API_BASE_URL = 'http://localhost:5000/api';
 
 // --- API LAYER (Simulated or Real) ---
